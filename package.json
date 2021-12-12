@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/cloudhubke/zoho-crm/issues"
   },
-  "homepage": "https://github.com/cloudhubke/zoho-crm#readme"
+  "homepage": "https://github.com/cloudhubke/zoho-crm#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
 }
