@@ -1,0 +1,37 @@
+{
+  "AuthURI": "https://accounts.zoho.com/oauth/v2",
+  "MailURI": "https://mail.zoho.com/api/accounts",
+  "OrgURI": "https://mail.zoho.com/api/organization",
+  "AccounttURI": " https://mail.zoho.com/api/accounts",
+  "Scopes": [
+    { "Name": "accounts", "Operations": ["READ", "UPDATE"] },
+    { "Name": "partner.organization", "Operations": ["READ", "UPDATE"] },
+    { "Name": "organization.subscriptions", "Operations": ["READ", "UPDATE"] },
+    { "Name": "organization.spam", "Operations": ["READ"] },
+    {
+      "Name": "organization.accounts",
+      "Operations": ["READ", "CREATE", "UPDATE"]
+    },
+    {
+      "Name": "organization.domains",
+      "Operations": ["READ", "UPDATE", "CREATE", "DELETE"]
+    },
+    {
+      "Name": "organization.groups",
+      "Operations": ["READ", "UPDATE", "CREATE", "DELETE"]
+    },
+    {
+      "Name": "messages",
+      "Operations": ["READ", "UPDATE", "CREATE", "DELETE"]
+    },
+    {
+      "Name": "attachments",
+      "Operations": ["READ", "UPDATE", "CREATE", "DELETE"]
+    },
+    { "Name": "tags", "Operations": ["READ", "UPDATE", "CREATE", "DELETE"] },
+    { "Name": "folders", "Operations": ["READ", "UPDATE", "CREATE", "DELETE"] },
+    { "Name": "tasks", "Operations": ["READ", "UPDATE", "CREATE", "DELETE"] },
+    { "Name": "notes", "Operations": ["READ", "UPDATE", "CREATE", "DELETE"] },
+    { "Name": "links", "Operations": ["READ", "UPDATE", "CREATE", "DELETE"] }
+  ]
+}
